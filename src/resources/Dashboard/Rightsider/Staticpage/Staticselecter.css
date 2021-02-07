@@ -1,0 +1,9 @@
+.empty{
+   height: 75px;
+   position: absolute;
+   /* right: 4%; */
+   top: 65px;
+   right: 55px;
+   box-shadow: 5px 10px 10px 10px #888888;
+
+}

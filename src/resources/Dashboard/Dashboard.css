@@ -1,0 +1,89 @@
+
+
+.right{
+  position: relative;
+ 
+}
+.lms{
+   position: relative;
+    background-color: #f2ebeb;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   height: 600px;
+/* height: 620px;
+max-height:630px;
+overflow: hidden;
+margin: 0 10px 0 5px; */
+top: 10px;
+overflow: auto;
+border-right-color: rgb(180, 180, 180);
+}
+
+
+.dashboardSearch{
+   background-color: #f0eded;
+   width: 300px;
+   height: 40px;
+   border-radius: 20px;
+  border: none;
+   text-align: center;
+}
+/* .tr{
+   height: 100px;
+   width: 100px;
+   margin-left: 200px !important;
+} */
+
+.caro{
+  max-width: 100%;
+   max-height: 100px;
+}
+
+/* Language css */
+/* .langcont,.empty{
+   display: inline-block;
+} */
+
+.langcont{
+   height: 100px;
+   width: 145vh;
+  
+  overflow: hidden;
+ 
+}
+
+.fals{
+   display: flex;
+   width: 1500px;
+}
+ 
+.lan{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80px;
+   width: 120px;
+   background-color: white;
+   color: black;
+   margin-left: 55px;
+   margin-top: 5px;
+   box-shadow: 0px 5px 5px 5px #888888;
+}
+
+/* song list */
+
+.song{
+   display: inline-block;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    
+ }
+.langu-ge{
+   margin-bottom: 70px;
+}
+
+.mo-d{
+   margin-bottom: 70px;
+}

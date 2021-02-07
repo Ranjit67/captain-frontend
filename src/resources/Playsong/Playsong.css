@@ -1,0 +1,121 @@
+.playside {  /* play list contener */
+    width: 75%;
+    height: 700px;
+    /* background-color: red; */
+    background-color: #82006f;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+top: 5px;
+right: 0;
+}
+
+.u {
+margin-top: 5px;
+}
+
+.im-ger {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-sizing: content-box;
+    background-color: red;
+    margin-bottom: 40px;
+}
+.au-dioFor-play {
+    width: 95%;
+}
+.rhap_container {   /*audio player plate contener hidden css*/
+ 
+    background-color: transparent !important;
+}
+.rhap_progress-filled{   /*audio player progress bar contener hidden css*/
+background-color: #e84393 !important;
+}
+
+.backer-to-playlist{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    height: 40px;
+    width: 120px;
+   
+    margin-top: 10px;
+    margin-left: 10px;
+   border-radius: 10px;
+   animation: mover 1s ease-in infinite both;
+}
+@keyframes mover{
+    from{transform: translateX(0);}
+    to{transform: translateX(-10px);}
+}
+
+
+/* dashboard playsong css */
+
+
+
+
+/*replace*/
+.aud-io{
+    margin-top: 20px;
+  
+    overflow: hidden;
+}
+
+.ima-ge-cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ima-ge{
+
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: violet;
+    box-shadow:2px 5px 5px 5px rgb(140, 142, 145);
+}
+.ima-ge:hover{
+    box-shadow:5px 10px 10px 10px rgb(51, 53, 56);
+   
+    cursor: grab;
+}
+
+.play-content{
+    overflow: hidden;
+     display: flex;
+     flex-direction: column;
+    
+ }
+
+
+
+ .rhap_container {   /*audio player plate contener hidden css*/
+ 
+    background-color: transparent !important;
+}
+.rhap_progress-filled{   /*audio player progress bar contener hidden css*/
+background-color: #e84393 !important;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .im{
+        margin-top: 50px;
+        height: 150px;
+    width: 150px;
+    }
+
+    .im:hover{
+        box-shadow:5px 10px 10px 10px rgb(51, 53, 56);  
+    }
+}

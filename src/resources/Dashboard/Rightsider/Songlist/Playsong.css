@@ -1,0 +1,60 @@
+
+/*replace*/
+.aud-io{
+    margin-top: 20px;
+  
+    overflow: hidden;
+}
+
+.ima-ge-cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ima-ge{
+
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: violet;
+    box-shadow:2px 5px 5px 5px rgb(140, 142, 145);
+}
+.ima-ge:hover{
+    box-shadow:5px 10px 10px 10px rgb(51, 53, 56);
+   
+    cursor: grab;
+}
+
+.play-content{
+    overflow: hidden;
+     display: flex;
+     flex-direction: column;
+    
+ }
+
+
+
+ .rhap_container {   /*audio player plate contener hidden css*/
+ 
+    background-color: transparent !important;
+}
+.rhap_progress-filled{   /*audio player progress bar contener hidden css*/
+background-color: #e84393 !important;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .im{
+        margin-top: 50px;
+        height: 150px;
+    width: 150px;
+    }
+
+    .im:hover{
+        box-shadow:5px 10px 10px 10px rgb(51, 53, 56);  
+    }
+}

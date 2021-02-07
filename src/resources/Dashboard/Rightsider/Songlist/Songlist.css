@@ -1,0 +1,33 @@
+
+  .song{
+    display: inline-block;
+     margin-right: 20px;
+     width: 200px;
+     height: 200px;
+     border-radius: 20px;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+
+     overflow: hidden;
+     position: relative;
+  }
+
+  .songC{
+    display: inline-block;
+     
+    
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+  }
+  .backdropPlayBox{
+    height: 50px;
+    width: 120px;
+    /* background-color: red; */
+    animation: mover 1s ease-in infinite both;
+  }
+  @keyframes mover{
+      from{transform: translateX(0);}
+      to{transform: translateX(-10px);}
+  }

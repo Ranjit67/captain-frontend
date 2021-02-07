@@ -1,0 +1,12 @@
+.butos,.acc{
+    display: inline;
+  margin-top: 20px;
+}
+
+.butos{
+    border: transparent;
+    background-color: #ff6b81;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+}

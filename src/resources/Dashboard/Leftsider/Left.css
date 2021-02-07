@@ -1,0 +1,36 @@
+.home{
+    position: relative;
+ border: 1px solid black;
+  height: 685px;
+ padding: 40px;
+  justify-items: center;
+  justify-content: center;
+  background-color: #f2ebeb;
+}
+
+.generet{                             /* This one for profile picture class property. */
+    width: 100px; 
+height: 100px;
+left: 15%;
+border-radius: 50%;
+position: absolute;
+}
+.h{
+    top: 50%;
+    position: absolute;
+    left: 20%;
+}
+.cont{
+    position: absolute;
+    top: 70%;
+   left: 20%;
+}
+.l:hover, .p:hover, .lo:hover {
+   
+    color: cadetblue;
+    font-size: 1.3rem;
+}
+.l, .p, .lo {
+    color: blue;
+    font-size: 1.3rem;
+}

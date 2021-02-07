@@ -1,0 +1,28 @@
+.favourite{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    padding-top: 40px;
+    /* background-color: red; */
+}
+.fav-box{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-image: linear-gradient(rgba(50, 222, 132, 0.7), rgba(86, 130, 3, 0.7));
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.fav-image{
+    height: 70%;
+    width: 70px;
+    /* background-color: blanchedalmond; */
+}
+.fev-title{
+    margin-left: 20px;
+}
