@@ -25,7 +25,7 @@ function App() {
 
              <Protected exact path="/dashboard" component={Dashboard} />
              <Protected exact path="/profile" component={Profile} />
-             <Protected exact path="/uploded/verson" component={Upload} />
+             <Route exact path="/uploded/verson" component={Upload} />
              <Protected exact path="/favourite" component={Favourite} />
              <Protected exact path="/dashboard/playlist/like" component={Like} />
              <Protected path="/dashboard/playlist/:listId" component={Playlist} />
